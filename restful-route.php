@@ -1,15 +1,14 @@
 <?php
-/**
- * restful-route.php
- *
- * HTTP Routing
- *
- * @package    RESTful_Route
- * @author     Moros Smith
- * @copyright  2016 Moros1138 Designs
- * @license    http://www.php.net/license/3_0.txt  PHP License 3.0
- * @version    1.0.0
- */
+# @Author: Moros Smith <moros1138@gmail.com>
+# @Version: 1.0.0
+
+/*
+        Portions of this code was inspired by a demonstration of a simple
+        REST API in PHP by Maurits van der Schee, author of PHP-CRUD-API.
+        
+        The demonstration can be found here:
+        https://www.leaseweb.com/labs/2015/10/creating-a-simple-rest-api-in-php/
+*/
 
 class RESTful_Route {
 	
