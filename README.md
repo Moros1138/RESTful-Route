@@ -1,5 +1,6 @@
 # RESTful-Route
 
+```php
 $r->add_route('users', function($args) {
 	
 	extract($args);
@@ -57,3 +58,5 @@ $r->add_route('users/{id}', function($args) {
 
 // does route comparisons and responses
 $r->run();
+
+```
