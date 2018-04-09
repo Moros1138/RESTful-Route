@@ -18,7 +18,7 @@ $r->add_route('GET', 'users/{id}', function($args) {
 	
 	return array(
 		'code' => 200,
-		'body' => array('message' => "It worked in GET for ID ({$id})")
+		'data' => array('message' => "It worked in GET for ID ({$id})")
 	);
 	
 });
